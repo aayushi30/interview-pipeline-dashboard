@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2a6592;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+}
+
+.tab button {
+    background-color: #db9833;
+    border: none;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tab button:hover {
+    background-color: #c78b28;
+}
+
+.tab button.active {
+    background-color: #2a6592;
+}
+
+.tabcontent {
+    display: none;
+}
+
+.tabcontent.active {
+    display: block;
+}
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type=text], input[type=number], textarea, select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type=text]:focus, input[type=number]:focus, textarea:focus, select:focus {
+    border-color: #8ec3eb;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 12px; 
+}
+
+#searchInput {
+   width: calc(100% - 22px);
+   padding: 12px; 
+   margin-bottom: 20px; 
+}
+
+.filter-buttons {
+   display:flex; 
+   justify-content:center; 
+   gap:.5rem; 
+   margin-bottom:.5rem; 
+}
