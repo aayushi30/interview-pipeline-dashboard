@@ -152,15 +152,15 @@ let showAllApplications = false;
 
 function toggleShowAll() {
 	const tableBody = document.querySelector(".candidate-table tbody");
-	if (showAllApplications) { // If currently showing all applications
-	    tableBody.innerHTML = ''; // Clear the table body
-	    loadFilteredCandidates([]); // Reload with no candidates
-	    showAllApplications = false; // Set to false to indicate applications are hidden
-	    $('#showAllButton').text("Show All Applications"); // Change button text
-	  } else { // If currently hiding applications
-	    loadCandidates(); // Load all candidates into the table
-	    showAllApplications = true; // Set to true to indicate applications are visible
-	    $('#showAllButton').text("Hide All Applications"); // Change button text
+	if (showAllApplications) {
+	    tableBody.innerHTML = '';
+	    loadFilteredCandidates([]);
+	    showAllApplications = false;
+	    $('#showAllButton').text("Show All Applications");
+	  } else {
+	    loadCandidates();
+	    showAllApplications = true;
+	    $('#showAllButton').text("Hide All Applications");
 	  }
 }
 
