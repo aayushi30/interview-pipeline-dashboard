@@ -10,4 +10,4 @@
 
 Clone the repository:
 ```bash
-git clone [<your-repo-url>](https://github.com/aayushi30/interview-pipeline-dashboard.git)
+git clone https://github.com/aayushi30/interview-pipeline-dashboard.git
