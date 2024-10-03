@@ -4,7 +4,7 @@
 
 ### Prerequisites
 
-- Node.js installed on your machine.
+- Basic knowledge of HTML/CSS bootstrap and Javascript.
 
 ### Installation
 
